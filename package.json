@@ -1,0 +1,28 @@
+{
+  "name": "CoVax-Notifier",
+  "version": "1.0.0",
+  "description": "A discord app to get upcoming COWIN appointments based on commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haq9966/CoVax-Notifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haq9966/CoVax-Notifier/issues"
+  },
+  "homepage": "https://github.com/haq9966/CoVax-Notifier#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
